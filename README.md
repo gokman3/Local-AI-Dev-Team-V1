@@ -20,8 +20,8 @@ The framework orchestrates three distinct AI agents working sequentially:
 Ensure you have [Ollama](https://ollama.ai/) installed on your system. Then, run the following commands sequentially to clone the repo, install dependencies, start the model, and launch the AI team:
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-cd YOUR_REPO_NAME
+git clone [https://github.com/gokman3/Local-AI-Dev-Team-V1.git](https://github.com/gokman3/Local-AI-Dev-Team-V1.git)
+cd Local-AI-Dev-Team-V1
 pip install -r requirements.txt
 ollama run qwen2.5-coder:3b
 python Agents.py
